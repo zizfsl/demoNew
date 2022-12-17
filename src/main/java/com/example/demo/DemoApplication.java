@@ -1,13 +1,14 @@
-package com.example.demo;
+add(int x, int y){
+    system.out.println("The sum is : ",x+y);
+    system.out.println("The sum is : ",x+y);
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+}
 
-@SpringBootApplication
-public class DemoApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
-	}
+public static void main(String[] args) {
+    int x =10;
+    int y =5;
+
+    add(x  ,y);
 
 }
