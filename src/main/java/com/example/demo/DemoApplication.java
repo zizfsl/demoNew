@@ -1,5 +1,6 @@
 add(int x, int y){
     system.out.println("The sum is : ",x+y);
+    system.out.println("The sum is : ",x+y);
 
 }
 
